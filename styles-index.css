@@ -1,3 +1,59 @@
 body {
-	background-color: Gray;
+	background-color: White;
+	font-family: Helvetica;
 }
+
+	#content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000px;
+		border: 1px solid;
+		height: 1000px;
+		
+	}
+		/*----------------------------------------- HEADER*/
+		#header {
+			height: 300px;
+			width: 950px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		/*----------------------------------------- LINK*/
+		#links {
+			margin-bottom: 20px;
+			width: 950px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			a .button-project, a .button-project-nonweb {
+				color: Black;
+				margin-bottom: 10px;
+				text-align: center;
+			}
+
+				.button-project {
+					width: 175px;
+					height: 50px;
+					border: 1px solid;
+					font-family: Verdana;
+					float: left;
+				}
+				
+				.button-project-nonweb {
+					width: 175px;
+					height: 50px;
+					border: 1px solid;
+					font-family: Verdana;
+					float: left;
+				}
+		
+		/*----------------------------------------- BODY*/
+		#body {
+			height: 500px;
+			width: 950px;
+			margin-left: auto;
+			margin-right: auto;
+			border: 0px solid;
+		}
